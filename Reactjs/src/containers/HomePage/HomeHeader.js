@@ -26,6 +26,7 @@ export default function HomeHeader({isShowBanner}){
   const changeLanguage = (language) => {
     dispatch(actions.changeLanguageApp(language));
     //fire redux event: action
+    //fdgdfgdf
   };
 
   const returnToHome = () => {
